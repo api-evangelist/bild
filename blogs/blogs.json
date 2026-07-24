@@ -1,0 +1,14 @@
+{
+  "repo": "bild",
+  "feeds": [
+    {
+      "source": "https://getbild.com/plans",
+      "feed_url": "https://getbild.com/plans",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-20T13:31:34Z"
+}

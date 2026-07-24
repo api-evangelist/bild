@@ -1,0 +1,32 @@
+generated: '2026-07-18'
+method: searched
+source: https://getbild.com/
+notes: >-
+  Bild publishes its compliance posture on its marketing site and pricing page.
+  No public OpenAPI or developer documentation is available (API access is a
+  paid Professional-tier feature), so cross-cutting API standards below are
+  asserted only where the provider states them publicly; unknown items are
+  recorded as not-conforming rather than fabricated.
+standards:
+  - id: soc2-type2
+    conforms: true
+    evidence: "getbild.com states 'SOC2 Type 2 certified' on the homepage security section"
+  - id: itar
+    conforms: true
+    evidence: "getbild.com states 'ITAR compliant' on the homepage and lists ITAR compliance in the Professional plan"
+  - id: aes-256-encryption
+    conforms: true
+    evidence: "getbild.com states AES-256 encryption at rest"
+  - id: sso-saml
+    conforms: true
+    evidence: "SSO/SAML and MFA listed as account security controls (Professional plan)"
+  - id: rbac
+    conforms: true
+    evidence: "role-based access controls stated on the security section"
+  - id: oauth2
+    conforms: false
+    evidence: "no public API/auth documentation available to confirm"
+  - id: oidc
+    conforms: false
+  - id: rfc9457-problem-details
+    conforms: false
