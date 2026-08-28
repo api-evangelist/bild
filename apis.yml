@@ -13,6 +13,17 @@ description: >-
   medical device, and product design teams, is SOC 2 Type 2 certified and ITAR
   compliant, and exposes API access on its Professional plan and above.
 url: https://raw.githubusercontent.com/api-evangelist/bild/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
